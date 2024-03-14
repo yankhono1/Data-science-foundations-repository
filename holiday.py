@@ -1,5 +1,7 @@
 # assumes there is only one ticket being bought
 
+print("Welcome this program will help you calculate your holiday costs \n")
+
 # Define the function calculate_hotel_cost
 def calculate_hotel_cost(num_nights, hotel_cost=120):  
     total_hotel_cost = num_nights * hotel_cost
