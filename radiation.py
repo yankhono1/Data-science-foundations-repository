@@ -1,3 +1,5 @@
+print("Welcome, this program allows you to claculate radiation levels \n")
+
 # Define the lists to store locations and their radiation levels
 locations = ["Urban", "Forest"]
 levels = [[18, 20, 22], [12, 14, 15]]
