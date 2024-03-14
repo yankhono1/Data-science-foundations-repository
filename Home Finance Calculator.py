@@ -3,6 +3,8 @@ import math
 # calculates interest you'll earn on your investment or calculate your bond payment on the house
 # capitalisation should not impact anything- could use lower() function to fix this issue
 
+print("Welcome \n")
+
 # Ask user to input either "investment" or "bond" 
 user_input = input("Enter either 'investment' or 'bond': ").lower()
 
