@@ -1,0 +1,57 @@
+- define what a neural network is
+
+a computational model inspired by the structure and function of the human brain
+
+- understand the basic neural network structure
+
+Nature of inputs determines the path that will be activated in the network to realise the outcome in the output layer
+
+- **input layer**: capture stimuli
+    
+    determined by the number of features
+    
+- **hidden laye**r: transmissions transferred information gets processed
+    1. problem complexity
+    2. the size of the dataset
+    3. the results of empirical experimentation
+    
+    determining the number of hidden layers as well as the number of nodes in each layer will require hyperparameter tuning to find the optimal values
+    
+    how many layers and how many nodes (1-2 for less complex problems)
+    
+    activation function introduce non-linearity which gives neural networks the ability to capture complex pattern/ relationships
+    
+    - ReLU activation function is defined as f(x) =max (0,x)  raking in x and returning the maximum value(0,x) set a value between 0-1 making negative values become 0 and positive reactions become 1
+- **output layer**: when everything happens and gets contracted
+    
+    determined by the nature of the problem
+    
+    **classification**: one node for each categorical target variable
+    
+    - uses softmax function: node with the highest probability is chosen as the predicted class for that observation. turns raw output to probabilities
+    
+    **regression tasks**: you will have one node in the output layer representing the numeric target variable
+    
+
+- grasp how neural networks transform input data into meaningful output
+
+considerations
+
+how many nodes should be in the input layer
+
+how many nodes should be in the output layer
+
+how many hidden layers and how many nodes in each layer
+
+- comprehend what considerations must be made when building a neural network
+- how the neural networks transforms inputs into outputs
+    1. every node-to-node connection has a weight
+    2. every layer (from one layer to another) has a bias term
+    3. we apply activation functions to the resulting weighted sums that have had a bias term added to them
+    
+    every node is interconnected
+    
+    every connection is weighted
+    
+    - get weighted sum of all connections leading to the node + node bias
+    - multiply input by weight and add the products together
